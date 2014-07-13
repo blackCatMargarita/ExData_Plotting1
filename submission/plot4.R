@@ -34,7 +34,7 @@ lines(data$datetime,data$Sub_metering_2, typ = 'l', ann=F, col = "red")
 lines(data$datetime,data$Sub_metering_3, typ = 'l', ann=F, col = "blue")
 legend("topright", col = c("black","red", "blue"), 
        legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
-       lty = c(1,1,1))
+       lty = c(1,1,1), bty = "n")
 title(ylab = "Energy sub metering")
 
 # Plot 4
